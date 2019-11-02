@@ -1,5 +1,7 @@
 import sys
 from textblob import TextBlob
-f = open(sys.argv[0],"r")
-print(f)
+print("The file you selected is:", sys.argv[1])
+text_file = open(sys.argv[1],"r")
+output = text_file.read()
+print(output)
 print("I'M PROGRAMMING")

@@ -6,3 +6,16 @@ output = text_file.read()
 text_sentiment = TextBlob(output)
 score = text_sentiment.sentiment.polarity
 print(text_sentiment.sentiment)
+if score > 0.01 and score < 0.3:
+    print("I declare this.... somewhat positive!") 
+elif score > 0.3:
+    print("I declare this.... very positive!")
+elif score < -0.01 and score > -0.3:
+    print("I declare this.... somewhat negative!")
+elif score < -0.3:
+    print("I declare this.... very negative!")
+elif score == 0:
+    print("I declare this.... true neutral!")
+else:
+    print("wtf!!!!??")
+

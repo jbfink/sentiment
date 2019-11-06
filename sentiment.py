@@ -2,6 +2,10 @@ import sys
 from textblob import TextBlob
 
 # turning the judge into a function
+def file_exists():
+    if len(sys.argv) < 1: 
+        print("You need to put a file as an argument!!")
+    return
 
 def judge(score):
     "This function takes the sentiment score and applies a judgment to it"
@@ -17,7 +21,7 @@ def judge(score):
         print("I declare this.... true neutral!")
     else:
         print("wtf!!!!??")
-
+file_exists()
 print("The file you selected is:", sys.argv[1])
 text_file = open(sys.argv[1],"r")
 output = text_file.read()

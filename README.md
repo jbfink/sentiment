@@ -14,4 +14,4 @@ Todo:
 
 * Possibly move the judged text file into its own directory, like "good" and "bad" or something.
 
-* Make a flask web app.
+* Make a [Flask](https://palletsprojects.com/p/flask/) web app.

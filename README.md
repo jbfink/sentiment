@@ -1,6 +1,6 @@
 This is a python program to determine the [sentiment](https://en.wikipedia.org/wiki/Sentiment_analysis) of arbitrary text files. Please excuse its incredibly poor quality -- I actually don't know how to program in Python (very well, anyway, this is my first thing). It depends on the amazing [TextBlob](https://textblob.readthedocs.io/en/dev/) to do its thing.
 
-[Anaconda](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) highly recommended. I develop in Miniconda.
+[Anaconda](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) highly recommended. Please be sure to get the Python 3 version! I develop in Miniconda3.
 
 To set up the environment, run ```conda env create -f environment.yml```.
 
